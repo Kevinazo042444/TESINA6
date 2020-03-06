@@ -9,4 +9,36 @@ export class Tab2Page {
 
   constructor() {}
 
+  data: any[] = [
+    {
+      "name": "Tip"
+    },
+    {
+      "name": "Tip"
+    },
+    {
+      "name": "Tip"
+    },
+    {
+      "name": "Tip"
+    },
+    {
+      "name": "Tip"
+    },
+    {
+      "name": "Tip"
+    },
+    {
+      "name": "Tip"
+    },
+    {
+      "name": "Tip"
+    }
+  ];
+
+  busqueda: any;
+
+  inputS($event){
+    console.log(this.busqueda);
+  }
 }

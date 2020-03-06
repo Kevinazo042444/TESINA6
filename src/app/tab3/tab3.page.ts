@@ -9,4 +9,15 @@ export class Tab3Page {
 
   constructor() {}
 
+  data: any[] = [
+    {
+      "name": "Task"
+    },
+    {
+      "name": "Task"
+    },
+    {
+      "name": "Task"
+    }
+  ];
 }
